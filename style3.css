@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap");
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Lato, sans-serif;
+  height: auto;
+  margin: 0 auto;
+}
+#nav-bar {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  background-color: #eeeeee;
+  border-bottom: 1px solid #364f6b;
+}
+a {
+  color: #ffffff;
+  font-weight: bold;
+}
+.kolom {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+  color: #334257;
+}
+.kolom .deskripsi {
+  font-family: "comic sans ms";
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #334257;
+}
+#aboutus {
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+}
+.deskripsi1 {
+  font-family: "comic sans ms";
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #334257;
+  padding-top: 15px;
+}
+#gambar-masak {
+  float: left;
+}
+#videos {
+  justify-content: center;
+  display: inline-block;
+  width: 100%;
+}
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+.topping {
+  text-align: center;
+  margin-top: 20px;
+}
+form {
+  margin: 0 auto;
+  padding: 20px 40px;
+  border-radius: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 18px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  margin-top: 8px;
+  height: 35px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  padding: 5px;
+  font-family: inherit;
+  border: solid black 2px;
+}
+textarea {
+  height: 150px;
+}
+#form {
+  font-family: "comic sans ms";
+}
+.btn {
+  width: 100%;
+}
+footer {
+  padding-top: 7px;
+  text-align: center;
+  background-color: #17a2b8;
+  height: 53px;
+  font-size: 20px;
+}
+@media only screen and (min-width: 545px) and (max-width: 717px) {
+  #aboutus {
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .card {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 100px) and (max-width: 545px) {
+  #aboutus {
+    justify-content: center;
+    width: 100%;
+    margin-top: 155px;
+  }
+  .card {
+    margin-bottom: 10px;
+  }
+}
